@@ -5,7 +5,7 @@ This is a simple shopping cart the idea, i used Repository design pattern to iso
 
 I Made an offer table for each product that have an offer as discount_product and the cinditonal product for the offer if exits main_product otherwise null. <br>
 
-The currency transtion was saved in database and used the ids for each currency to get the factor. <br>
+The currency transtion was saved in database and used the ids for each currency to get the factor assuming all prices originally stored in USD. <br>
 
 To apply offers: <br>
   first check if  main_product_id is null: <br>
